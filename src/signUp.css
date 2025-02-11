@@ -1,0 +1,148 @@
+.signin {
+    background-image: url("../src/assets/course-3.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+    color: white;
+    position: relative;
+    height: 600px;
+}
+.sign {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.sign-content {
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    margin: auto;
+    gap: 30px;
+    justify-content: space-around;
+}
+.need {
+    color: #d95700;
+    font: bold;
+    font-size: 20px;
+}
+.marks {
+    color: #d95700;
+}
+.color-content {
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 450px;
+    height: 80px;
+    color: #333244;
+    text-align: center;
+    padding: 10px;
+}
+.Yourname {
+    background-color: #ff6600;
+    border-radius: 10px;
+    width: 450px;
+    color: white;
+    height: 400px;
+    justify-items: center;
+}
+.input-field {
+    width: 350px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .input-field:focus {
+    border-color: #ffa500;
+    box-shadow: 0 0 5px rgba(255, 165, 0, 0.5);
+  }
+  .down {
+    margin-top: 30px;
+  }
+  /* styles.css */
+.custom-select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .custom-select:focus {
+    border-color: #ffa500;
+    box-shadow: 0 0 5px rgba(255, 165, 0, 0.5);
+  }
+/* styles.css */
+.custom-button {
+    background-color: #333244;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .custom-button:hover {
+    background-color: #ff8c00;
+  }
+  
+  .custom-button:active {
+    background-color: #e07b00;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .signin {
+        height: 680px;
+        background-image: url("../src/assets/course-3.jpg");
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        display: flex;
+        padding: 20px;
+        width: 100%;
+    }
+    .sign-content {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+        gap: 10px;
+        align-items: center;
+    }
+    .color-content {
+        width: 100%;
+        height: 50px;
+        color: #333244;
+    }
+    .Yourname {
+        width: 355px;
+        height: 300px;
+        color: #333244;
+    }
+    .input-field {
+      margin-bottom: 5px;
+      width: 300px;
+    }
+    .custom-select {
+      width: 100%;
+    }
+    .Invidunt {
+      margin: 0px 0px 16px;
+    }
+  }

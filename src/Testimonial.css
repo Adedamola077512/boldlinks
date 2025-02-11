@@ -1,0 +1,18 @@
+#TESTIMONIALS {
+    padding-top: 100px;
+    /* height: 400px; */
+    /* margin-top: 50px; */
+}
+#text-card {
+    margin-top: 60px;
+}
+.owl-theme {
+    height: 600px;
+}
+.TEST {
+    color: #d95700;
+}
+.quote {
+    font-style: italic;
+    font-size: 64px;
+}
