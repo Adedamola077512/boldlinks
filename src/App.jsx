@@ -11,7 +11,7 @@ import Course from './Course';
 import SignUp from './SignUp';
 import Teachers from './Teachers';
 import Testimonial from './Testimonial';
-import OurBlog from './OurBlog';
+// import OurBlog from './OurBlog';
 import Footer from './Footer';
 function App() {
   return (

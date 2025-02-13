@@ -62,7 +62,7 @@ const Footer = () => {
           {/* Newsletter Section */}
           <Col lg={4} md={12}>
             <h5 className="text-uppercase text-warning">Newsletter</h5>
-            <button className="button mt-4">
+            {/* <button className="button mt-4">
               Apply Now
               <svg className="icon" viewBox="0 0 24 24" fill="currentColor">
                 <path
@@ -71,7 +71,7 @@ const Footer = () => {
                   clipRule="evenodd"
                 ></path>
               </svg>
-            </button>
+            </button> */}
             <InputGroup className="newsletter-input mt-3">
               <Form.Control type="email" placeholder="Your Email Address" />
               <Button variant="warning">Sign Up</Button>
